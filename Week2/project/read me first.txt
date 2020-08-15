@@ -1,0 +1,8 @@
+The project is not finished.
+
+Unfortunately I wasn't  able to finish it I asked for a help from a teacher
+to explain to me how should I think about it in a logical way.
+
+As you can see in the js file there are a lot of comments because
+I was trying for 4 days but I am still missing logical way of thinking.
+
