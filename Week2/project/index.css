@@ -1,0 +1,30 @@
+body{
+    background-color: #1F555C;
+    color:white;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+span{
+    padding: 20px;
+    cursor: pointer;
+}
+
+#time-container{
+    margin: auto;
+    width: 27rem;
+    height: 8rem;
+    border: 5px solid #174146;
+    border-radius: 30px;
+}
+
+p{
+    display: inline;
+    font-size: 2rem;
+}
+
+i{
+     padding: 20px;
+     margin-top: 2rem;
+     cursor: pointer;
+}
