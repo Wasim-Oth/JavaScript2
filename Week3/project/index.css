@@ -1,0 +1,69 @@
+body{
+     background-image: linear-gradient(to right, #401A14, #6F1508);
+     background-clip: 40px;
+    }
+
+.container{
+    margin:5rem auto;
+    width: 30rem;
+    height: 38rem;
+    background: white; 
+    border-radius: 30px;
+    
+}
+header{
+    display: flex;
+    text-align: center;
+    background: #1F020B;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+section{
+    margin-left: 2rem;
+}
+
+#service{
+    margin-left: 1.5rem;
+    width: 16rem;
+    height: 2em;
+}
+
+p{
+    margin-left: 0.5rem;
+}
+input[type= 'number']{
+    width:16rem;
+}
+
+.people{
+    margin-left: 1rem;
+}
+
+.calculate{
+    display: flex;
+    background: #c52712;
+    color:white;
+    width:12rem;
+    height:3rem;
+    font-size:1.3rem;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+#each{
+    display: none;
+    text-align: center;
+}
+.tip-amount{
+    text-align: center;
+}
+
