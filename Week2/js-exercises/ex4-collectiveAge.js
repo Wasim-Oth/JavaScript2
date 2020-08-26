@@ -10,7 +10,7 @@
 
 function collectiveAge(people) {
   // return the sum of age for all the people
-  let allAges = people.map(ele => ele.age)
+  let allAges = people.forEach(ele => ele.age)
   // console.log(allAges);
 
   let sumAges = allAges.reduce((a, b) => a + b, 0);
