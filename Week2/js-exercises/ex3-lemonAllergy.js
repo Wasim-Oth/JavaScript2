@@ -14,7 +14,7 @@
 
 function takeOutLemons(basket) {
   // your code goes in here. The output is a string 
-  let fruitBasketWithOutLemon = basket.filter(ele => ele !== 'Lemon');
+  let fruitBasketWithOutLemon = basket.filter(ele => ele !== 'Lemon').join(', ');
   return `My mom bought me a fruit basket, ${fruitBasketWithOutLemon}`
 }
 
