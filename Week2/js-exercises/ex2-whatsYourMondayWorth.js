@@ -14,8 +14,8 @@
 
 function dayWorth(tasks, hourlyRate) {
   // put your code in here, the function does returns a euro formatted string
-  let hours = tasks.map(num => (num.duration / 60) * hourlyRate);
-  let totalRate = hours.reduce((a, b) => a + b, 0 );
+  let hourRate = tasks.map(num => (num.duration / 60) * hourlyRate);
+  let totalRate =  Math.floor(hourRate.reduce((accumulator, currentNumber) => accumulator + currentNumber) * 100) / 100;
   return `$${totalRate}`;
 
 }
